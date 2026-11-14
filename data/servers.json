@@ -17474,5 +17474,53 @@
     "endpoints": {
       "streamableHttp": "https://radar.offseq.com/mcp"
     }
+  },
+  {
+    "name": "Kling AI MCP (China)",
+    "url": "https://github.com/klingai-dev/openclaw-plugin",
+    "description": "Official China-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Kling AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "oauth",
+      "remote-mcp"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://klingai.com/mcp/plugin"
+    }
+  },
+  {
+    "name": "Kling AI MCP (Global)",
+    "url": "https://github.com/klingai-tech/claude-plugin",
+    "description": "Official Global-region image/video generation, reference workflows and task tracking using OAuth and account credits; China and Global accounts, credits and task IDs are separate.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "Kling AI",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "oauth",
+      "remote-mcp"
+    ],
+    "official": true,
+    "transport": [
+      "streamable-http"
+    ],
+    "auth": [
+      "oauth"
+    ],
+    "endpoints": {
+      "streamableHttp": "https://kling.ai/mcp/plugin"
+    }
   }
 ]
